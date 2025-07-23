@@ -64,3 +64,18 @@ print(9254651.0364 * 1.08)  # M9 = 9995023.11
 print(round(9995023.11))
 
 print(f"\nIt took {9} months to double the valuation.")  # M9 = 9995023.11
+
+#  50,000 users. Each month, 12% of users churn (leave the platform).
+# How many users will you have after 18 months?
+
+users_initial = 50000
+decline_percent = 12
+print(decline_percent / 100)  # 0.12
+retention_rate = 0.88
+months = 18
+users_remaining = 50000
+
+# calculate compound monthly churn
+
+for months in range(1, 19):  # 1 through 18
+print(f"months {months}: {users_initial} users")
