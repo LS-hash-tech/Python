@@ -241,7 +241,7 @@ else:    # executed if the loop doesn't reach "break" but runs 100 times
     # Email attempted
     # and so on for another 98 times......
 
-# ================================= Nested Loops ==================================
+# ================================= Nested Loops ====================================
 
 # Essentially one loop inside another loop
 
@@ -250,3 +250,52 @@ for x in range(5):
         print(f"({x}, {y})")
 
 # Check personal notes for full breakdown
+
+# ================================= Iterables ======================================
+
+print(type(5))
+print(type(range(5)))  # range is iterables
+
+for x in range(5):  # that makes that "x" can have different values
+    print
+
+# 2nd use case
+
+for x in "python":
+    print(x)  # will print each and every letter of the word separately
+
+# ================================ While loops =====================================
+
+number = 100
+while number > 0:  # while the number is greater than 0
+    print(number)
+    number //= 2  # 100 will be constantly (in loop) divided by 2
+
+# 2nd use case (terminate a condition)
+
+command = ""
+while command != "quit":  # means: if command does not equal "quit" keep in loop
+    command = input(">")
+    print("ECHO", command)
+
+# self experiments
+
+command = ""
+count = 0
+while command != "quit":
+    command = input(">")
+    if command != "quit":
+        count += 1
+        print(f"Command #{count}: {command}")
+
+# 2nd
+
+command = ""
+while command != "quit":
+    command = input(">")
+    if command == "hi, how are you doing today?":
+        print("Hi! doing pretty good, hby - how may I assist you today?")
+    elif command != "quit":
+        print("ECHO", command)
+
+# more excerices in app3.py
