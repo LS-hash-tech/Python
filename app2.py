@@ -299,3 +299,13 @@ while command != "quit":
         print("ECHO", command)
 
 # more excerices in app3.py
+
+# ================================ Infinite Loops =====================================
+
+# command = "" # now that we have an inifinite loop we no longer need to define "command"
+
+while True:  # "while true" is THE key to the inifinte loop
+    command = input(">")
+    print("ECHO", command)
+    if command.lower() == "quit":
+        break

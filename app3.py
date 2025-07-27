@@ -24,7 +24,17 @@ def exercise2():
             print("too many attempts, access denied")
 
 
+# ============================== general exercises ====================================
+
+def exercise3():
+
+
+range(1, 10)
+print("we have 4 even numbers")
+
+
 if __name__ == "__main__":
   # Uncomment ONLY ONE:
   # exercise1()
-    exercise2()
+  # exercise2()
+    exercise3()
