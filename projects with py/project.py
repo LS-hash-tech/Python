@@ -1,0 +1,20 @@
+# ======================================== dice roll game ======================================
+#
+# functions and structure
+
+# ask: roll the dice? (Y/N)
+
+# answer Y or N
+# N = "Thank you for playing and have a great rest of your day" aka end the game
+# Y = two random numbers in parenthesis for two dices -- eg. (2, 5) -- each dice can offer from 1 to 6
+# Anything else? = Invalid choice!
+
+for numbers in range(1, 6):
+    if Y
+    print("{numbers}")
+    elif:
+        N print("Thank you for playing and have a great rest of your day")
+    else:
+        print("Sorry, invalid choice!")
+
+Numbers = (1, 2, 3, 4, 5, 6)
