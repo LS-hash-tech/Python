@@ -309,3 +309,24 @@ while True:  # "while true" is THE key to the inifinte loop
     print("ECHO", command)
     if command.lower() == "quit":
         break
+
+
+# ==================================== Functions =========================================
+
+def greet():
+    print("hi there..")
+    print("welcome aboard!")
+
+
+greet()
+
+# ==================================== Arguments & Parameters =============================
+
+
+def geet(first_name, second_name):  # the first_name & second_name are parameters (defined by us)
+    print(f"hi {first_name, second_name}")
+    print("how are you doing today?")
+
+
+# The arguments ("Layne", "Singh") are the values given to the parameters
+greet("Layne", "Singh")

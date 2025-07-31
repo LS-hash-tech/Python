@@ -1,40 +1,9 @@
-# ============================== While loops challanges ====================================
 
-def exercise1():
-    password = "zz"
-    while password != "open":
-        password = input("enter password please: ")
-    print("access granted")
-
-
-def exercise2():
-    correct_password = "open123"
-    attempts = 0
-    max_attempts = 3
-
-    while attempts < max_attempts:
-        password = input("Enter Password please: ")
-        if password == correct_password:
-            print("Access Granted")
-            break
-        print(
-            f"wrong password. Attempts left: {max_attempts - attempts}")
-        attempts += 1
-        if attempts == max_attempts:
-            print("too many attempts, access denied")
-
-
-# ============================== general exercises ====================================
-
-def exercise3():
-
-
-range(1, 10)
-print("we have 4 even numbers")
-
-
-if __name__ == "__main__":
-  # Uncomment ONLY ONE:
-  # exercise1()
-  # exercise2()
-    exercise3()
+student_count = 1000
+rating = 4.99
+is_published = True
+course_name = "python programming"
+print(len(course_name))
+print(course_name[0:7])
+print(course_name[:])
+print(round(2.9))
