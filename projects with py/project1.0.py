@@ -23,9 +23,4 @@ for numbers in range(1, 6):
 
 Numbers = (1, 2, 3, 4, 5, 6)
 
-# The outcome for this Personal attempt came out with Numbers x 5
-
-# Attempt 2 (with some inside info!)
-
-
-choice = input
+# The outcome for this Personal attempt came out with "Numbers" x 5
